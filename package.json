@@ -13,6 +13,6 @@
     "client": "bun run client.js"
   },
   "engines": {
-    "node": "20"
+    "bun": "1.2.16"
   }
 }

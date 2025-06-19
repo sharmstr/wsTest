@@ -1,0 +1,16 @@
+{
+  "name": "wstest",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "server": "bun run server.js",
+    "client": "bun run client.js"
+  }
+}

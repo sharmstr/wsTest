@@ -6,7 +6,7 @@
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.8.3"
   },
   "scripts": {
     "server": "bun run server.js",
@@ -14,5 +14,6 @@
   },
   "engines": {
     "node": "20"
-  }
+  },
+  "packageManager": "bun"
 }

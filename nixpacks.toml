@@ -1,4 +1,4 @@
 [phases.setup]
   nixpkgs = ['bun']
 [phases.install]
-  cmds = ['bun i --no-save']
+  cmds = ['bun i']

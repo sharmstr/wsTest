@@ -1,0 +1,4 @@
+[phases.setup]
+  # https://github.com/NixOS/nixpkgs/commits/master/pkgs/development/web/bun/default.nix
+  nixpkgsArchive = 'c48d3f4550e4ee7eabd0bbc5279bb13dd4c323cd' #https://github.com/NixOS/nixpkgs/commit/c48d3f4550e4ee7eabd0bbc5279bb13dd4c323cd
+  aptPkgs = ["...", "wget"]   # Install the wget package with apt-get
